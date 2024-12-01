@@ -1,0 +1,26 @@
+.search-wrapper {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.search-wrapper input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-wrapper button {
+    padding: 10px 15px;
+    background-color: #849fbd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-wrapper button:hover {
+    background-color: #103b69;
+}

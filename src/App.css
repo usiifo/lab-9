@@ -1,0 +1,59 @@
+/* General Reset */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Light background */
+  color: #333; /* Dark text */
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Blue */
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+footer {
+  background-color: #9d9d9d; 
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  font-size: 14px;
+}
